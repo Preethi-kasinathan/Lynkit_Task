@@ -1,0 +1,47 @@
+.container
+{
+    top: 50px;
+    left: 25px;
+}
+
+.card-header
+{
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.row
+{
+  padding: 25px;
+  margin-top: 25px;
+  border: 2px solid white;
+  margin-bottom: 209px;
+  color: white;
+}
+
+.main
+{
+  height: 772px;
+  background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Tropical-Beach-View-4K-Ultra-HD-Wallpaper-3840x2160.jpg');
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container-overlay
+{
+  width: 50%;
+  height: 100%;
+  margin-left: 25%;
+  margin-top: 5%;
+  padding-left: 15px;
+  padding-right: 15px;
+	background: rgba(0,0,0,0.65);
+	position: relative;
+}
+
+span
+{
+  color: orangered;
+}

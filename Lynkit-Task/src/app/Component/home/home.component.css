@@ -1,0 +1,190 @@
+/*--------------------------
+     SLIDER STARTS
+---------------------------*/
+
+.slider
+{
+	width: 100%;
+	height: 729px;
+	/*background-color: blueviolet;*/
+	background-image: url('https://www.setaswall.com/wp-content/uploads/2017/03/Tropical-Beach-View-4K-Ultra-HD-Wallpaper-3840x2160.jpg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+}
+
+
+.slider-overlay
+{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.65);
+	position: relative;
+}
+
+
+.slider-content
+{
+	position: absolute;
+	top: 39%;
+	width: 100%;
+}
+
+.icons .fa
+{
+	font-size: 35px;
+	margin-right: 7px;
+}
+
+
+.cta-div
+{
+	margin-top: 30px;
+}
+
+.btn1
+{
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-top-left-radius: 15px;
+	transition: all 0.5s ease-in;
+	margin-right: -6px;
+}
+
+
+.btn1:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: deepskyblue; 
+	border-color: deepskyblue;
+}
+
+.btn2
+{
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-bottom-right-radius: 15px;
+	transition: all 0.5s ease-in;
+	margin-right: 10px;
+}
+
+#btn2
+{
+	padding: 13px 18px;
+	background-color: transparent;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	border: 2px solid white;
+	border-bottom-right-radius: 15px;
+	transition: all 0.5s ease-in;
+	margin-right: 10px;
+}
+
+
+#btn2:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: orangered; 
+	border-color: orangered;
+}
+
+
+.btn2:hover
+{
+	text-decoration: none;
+	color: white;
+	background-color: orangered; 
+	border-color: orangered;
+}
+
+.social-networks a.fa
+{
+	border: 1px solid white;
+	padding: 10px;
+	color: white;
+	width: 35px;
+	height: 35px;
+	border-radius: 25px;
+	margin-right: 2px;
+	transition: all 0.5s ease-in;
+}
+
+.social-networks a.fa:hover
+{
+	text-decoration: none;
+	background-color: deepskyblue; 
+	color: white;
+	border: 1px solid deepskyblue;
+}
+
+
+.slider .text, .slider .typed-cursor
+{
+	display: inline;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+.primary
+{
+	color: orangered;
+}
+
+.typed-cursor
+{
+	opacity: 1;
+	animation: blink 0.7s infinite;
+	-webkit-animation: blink 0.7s infinite;
+	-mox-animation:blink 0.7s infinite;
+}
+
+@keyframes blink
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+@-webkit-keyframes blink
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 1;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+
+/*--------------------------
+  	SLIDER ENDS
+---------------------------*/
